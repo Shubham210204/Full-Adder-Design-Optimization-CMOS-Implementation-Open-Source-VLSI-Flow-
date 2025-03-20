@@ -7,42 +7,37 @@ This project focuses on the **design, simulation, synthesis, and physical implem
 
 ### **1. RTL Design & Simulation**  
 - Developed **Verilog code** for the Full Adder using **VS Code**.
-<br>
-Verilog module for full adder:
+Verilog module for full adder:<img src="https://github.com/Shubham210204/Full-Adder-Design-Optimization-CMOS-Implementation-Open-Source-VLSI-Flow-/blob/main/images/module.png?raw=true">
 <br>
 
-Test bench for the above module:
-<br>
+Test bench for the above module:<img src="https://github.com/Shubham210204/Full-Adder-Design-Optimization-CMOS-Implementation-Open-Source-VLSI-Flow-/blob/main/images/tb.png?raw=true">
+<br><br>
 
 - Simulated the functionality using **Icarus Verilog (Iverilog)** and analyzed the output waveforms in **GTKWave**.  
-<br>
-Verilog simulation:
-<br>
+Verilog simulation:<img src="https://github.com/Shubham210204/Full-Adder-Design-Optimization-CMOS-Implementation-Open-Source-VLSI-Flow-/blob/main/images/rtl_simulation.png?raw=true">
+<br><br>
 
 ### **2. Synthesis & Netlist Generation**  
 - Synthesized the RTL design to generate a **gate-level netlist** using **Yosys**, ensuring logical correctness.
-<br>
-Synthesised block diagram:
-<br>
+Synthesised block diagram:<img src="https://github.com/Shubham210204/Full-Adder-Design-Optimization-CMOS-Implementation-Open-Source-VLSI-Flow-/blob/main/images/synthesis.png?raw=true">
+<br><br>
 
 ### **3. Schematic Design & SPICE Simulation**  
 - Created an **optimized schematic** with **minimal transistor usage** in **Xschem**.
-<br>
-Schematic of full adder:
-<br>
+Schematic of full adder:<img src="https://github.com/Shubham210204/Full-Adder-Design-Optimization-CMOS-Implementation-Open-Source-VLSI-Flow-/blob/main/images/full_adder.png?raw=true">
+<br><br>
 
 - Verified circuit behavior through **SPICE simulations** using **NGSpice**.
-<br>
-According to these inputs:
+According to these inputs:<img src="https://github.com/Shubham210204/Full-Adder-Design-Optimization-CMOS-Implementation-Open-Source-VLSI-Flow-/blob/main/images/input.png?raw=true">
 <br>
 
-These are the output waveforms:
-<br>
+These are the output waveforms:<img src="https://github.com/Shubham210204/Full-Adder-Design-Optimization-CMOS-Implementation-Open-Source-VLSI-Flow-/blob/main/images/output.png?raw=true">
+<br><br>
 
 ### **4. Physical Design & Verification**  
 - Designed the **layout** in **Magic VLSI**, ensuring **compact area and adherence to fabrication constraints**.
-<br>
-<br>
+Final physical layout of full adder:<img src="https://github.com/Shubham210204/Full-Adder-Design-Optimization-CMOS-Implementation-Open-Source-VLSI-Flow-/blob/main/images/layout.png?raw=true">
+<br><br>
 
 - Performed **Design Rule Check (DRC)** in Magic to validate layout correctness.  
 - Conducted **Layout vs Schematic (LVS) check** using **Netgen**, ensuring **schematic-to-layout accuracy**.  
