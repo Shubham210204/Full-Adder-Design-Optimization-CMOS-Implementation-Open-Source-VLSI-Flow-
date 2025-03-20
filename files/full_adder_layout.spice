@@ -1,0 +1,30 @@
+** SPICE3 file created from full_adder_layout.ext - technology: sky130A
+
+X0 sum sum_comp gnd a_n210_n1030# sky130_fd_pr__nfet_01v8 ad=0.45 pd=2.9 as=0.45 ps=2.9 w=1 l=0.15
+X1 a_910_n1460# b a_410_n1460# a_n210_n1030# sky130_fd_pr__nfet_01v8 ad=0.45 pd=2.9 as=0.45 ps=2.9 w=1 l=0.15
+X2 gnd a a_n90_n2160# w_n410_n2480# sky130_fd_pr__pfet_01v8 ad=0.9 pd=4.9 as=0.9 ps=4.9 w=2 l=0.15
+X3 a_410_n300# a a_n90_n300# w_n400_n400# sky130_fd_pr__pfet_01v8 ad=0.9 pd=4.9 as=0.9 ps=4.9 w=2 l=0.15
+X4 a_790_n800# cin gnd a_n210_n1030# sky130_fd_pr__nfet_01v8 ad=0.45 pd=2.9 as=0.45 ps=2.9 w=1 l=0.15
+X5 a_n90_n2160# cin a_910_n2160# w_n410_n2480# sky130_fd_pr__pfet_01v8 ad=0.9 pd=4.9 as=0.9 ps=4.9 w=2 l=0.15
+X6 a_410_n2160# a sum_comp w_n410_n2480# sky130_fd_pr__pfet_01v8 ad=0.9 pd=4.9 as=0.9 ps=4.9 w=2 l=0.15
+X7 cout cout_comp gnd a_n210_n1030# sky130_fd_pr__nfet_01v8 ad=0.45 pd=2.9 as=0.45 ps=2.9 w=1 l=0.15
+X8 a_n90_n300# b gnd w_n400_n400# sky130_fd_pr__pfet_01v8 ad=0.9 pd=4.9 as=0.9 ps=4.9 w=2 l=0.15
+X9 cout_comp b a_790_n800# a_n210_n1030# sky130_fd_pr__nfet_01v8 ad=0.45 pd=2.9 as=0.45 ps=2.9 w=1 l=0.15
+X10 sum sum_comp gnd w_n400_n400# sky130_fd_pr__pfet_01v8 ad=0.9 pd=4.9 as=0.9 ps=4.9 w=2 l=0.15
+X11 a_n210_n1460# a sum_comp a_n210_n1030# sky130_fd_pr__nfet_01v8 ad=0.45 pd=2.9 as=0.45 ps=2.9 w=1 l=0.15
+X12 a_n90_n2160# cout_comp sum_comp w_n410_n2480# sky130_fd_pr__pfet_01v8 ad=0.9 pd=4.9 as=0.9 ps=4.9 w=2 l=0.15
+X13 a_n210_n1460# cin sum_comp a_n210_n1030# sky130_fd_pr__nfet_01v8 ad=0.45 pd=2.9 as=0.45 ps=2.9 w=1 l=0.15
+X14 a_1290_n300# cin gnd w_n400_n400# sky130_fd_pr__pfet_01v8 ad=0.9 pd=4.9 as=0.9 ps=4.9 w=2 l=0.15
+X15 a_410_n1460# a sum_comp a_n210_n1030# sky130_fd_pr__nfet_01v8 ad=0.45 pd=2.9 as=0.45 ps=2.9 w=1 l=0.15
+X16 cout_comp a a_790_n800# a_n210_n1030# sky130_fd_pr__nfet_01v8 ad=0.45 pd=2.9 as=0.45 ps=2.9 w=1 l=0.15
+X17 cout cout_comp gnd w_n400_n400# sky130_fd_pr__pfet_01v8 ad=0.9 pd=4.9 as=0.9 ps=4.9 w=2 l=0.15
+X18 gnd cin a_n90_n2160# w_n410_n2480# sky130_fd_pr__pfet_01v8 ad=0.9 pd=4.9 as=0.9 ps=4.9 w=2 l=0.15
+X19 cout_comp b a_1290_n300# w_n400_n400# sky130_fd_pr__pfet_01v8 ad=0.9 pd=4.9 as=0.9 ps=4.9 w=2 l=0.15
+X20 gnd b a_n90_n2160# w_n410_n2480# sky130_fd_pr__pfet_01v8 ad=0.9 pd=4.9 as=0.9 ps=4.9 w=2 l=0.15
+X21 gnd cout_comp a_n210_n1460# a_n210_n1030# sky130_fd_pr__nfet_01v8 ad=0.45 pd=2.9 as=0.45 ps=2.9 w=1 l=0.15
+X22 cout_comp a a_n90_n800# a_n210_n1030# sky130_fd_pr__nfet_01v8 ad=0.45 pd=2.9 as=0.45 ps=2.9 w=1 l=0.15
+X23 a_910_n2160# b a_410_n2160# w_n410_n2480# sky130_fd_pr__pfet_01v8 ad=0.9 pd=4.9 as=0.9 ps=4.9 w=2 l=0.15
+X24 cout_comp a a_410_n300# w_n400_n400# sky130_fd_pr__pfet_01v8 ad=0.9 pd=4.9 as=0.9 ps=4.9 w=2 l=0.15
+X25 a_n90_n800# b gnd a_n210_n1030# sky130_fd_pr__nfet_01v8 ad=0.45 pd=2.9 as=0.45 ps=2.9 w=1 l=0.15
+X26 a_n210_n1460# b sum_comp a_n210_n1030# sky130_fd_pr__nfet_01v8 ad=0.45 pd=2.9 as=0.45 ps=2.9 w=1 l=0.15
+X27 gnd cin a_910_n1460# a_n210_n1030# sky130_fd_pr__nfet_01v8 ad=0.45 pd=2.9 as=0.45 ps=2.9 w=1 l=0.15
